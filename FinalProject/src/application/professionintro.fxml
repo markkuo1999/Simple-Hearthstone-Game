@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="1000.0" prefWidth="1450.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <ImageView fitHeight="1000.0" fitWidth="1450.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/menu.png" />
+         </image>
+      </ImageView>
+      <Button id="backtointro" layoutX="1249.0" layoutY="867.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="187.0" text="返回遊戲介紹">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

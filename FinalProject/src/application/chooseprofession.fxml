@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="1000.0" fitWidth="1450.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/menu.png" />
+         </image>
+      </ImageView>
+      <ImageView id="elepic" fitHeight="289.0" fitWidth="237.0" layoutX="416.0" layoutY="540.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/elementalist.png" />
+         </image>
+      </ImageView>
+      <ImageView id="engpic" fitHeight="281.0" fitWidth="237.0" layoutX="1054.0" layoutY="119.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/engineer.png" />
+         </image>
+      </ImageView>
+      <ImageView id="guapic" fitHeight="281.0" fitWidth="237.0" layoutX="416.0" layoutY="119.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/guardian.png" />
+         </image>
+      </ImageView>
+      <ImageView id="mespic" fitHeight="274.0" fitWidth="200.0" layoutX="1073.0" layoutY="540.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/mesmer.png" />
+         </image>
+      </ImageView>
+      <ImageView id="ranpic" fitHeight="281.0" fitWidth="237.0" layoutX="149.0" layoutY="544.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/ranger.png" />
+         </image>
+      </ImageView>
+      <ImageView id="thipic" fitHeight="281.0" fitWidth="237.0" layoutX="754.0" layoutY="119.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/thief.png" />
+         </image>
+      </ImageView>
+      <ImageView id="warpic" fitHeight="281.0" fitWidth="237.0" layoutX="149.0" layoutY="119.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/warrior.png" />
+         </image>
+      </ImageView>
+      <ImageView id="necpic" fitHeight="274.0" fitWidth="251.0" layoutX="747.0" layoutY="540.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/死靈.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="53.0" layoutX="427.0" layoutY="839.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/eleicon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="53.0" layoutX="1065.0" layoutY="409.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/engicon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="53.0" layoutX="427.0" layoutY="409.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/guaicon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="53.0" layoutX="1083.0" layoutY="825.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/mesicon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="53.0" layoutX="754.0" layoutY="825.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/necicon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="53.0" layoutX="157.0" layoutY="839.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/ranicon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="53.0" layoutX="763.0" layoutY="409.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/thiicon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="53.0" layoutX="157.0" layoutY="409.0">
+         <image>
+            <Image url="@../../../../Desktop/Final_Project/waricon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="268.0" layoutY="421.0" text="戰士" textFill="#f8f5f5">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="535.0" layoutY="421.0" text="守護者" textFill="#f8f5f5">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="864.0" layoutY="421.0" text="盜賊" textFill="#f8f5f5">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="1162.0" layoutY="423.0" text="工程師" textFill="#f8f5f5">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="851.0" text="遊俠" textFill="#f8f5f5">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="520.0" layoutY="851.0" text="元素使" textFill="#f8f5f5">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="846.0" layoutY="837.0" text="死靈法師" textFill="#f8f5f5">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="1178.0" layoutY="837.0" text="幻術師" textFill="#f8f5f5">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button id="war" layoutX="210.0" layoutY="484.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" text="選擇">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="gua" layoutX="494.0" layoutY="484.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" text="選擇">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="thi" layoutX="832.0" layoutY="484.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" text="選擇">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="eng" layoutX="1137.0" layoutY="484.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" text="選擇">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="mes" layoutX="1137.0" layoutY="893.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" text="選擇">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="nec" layoutX="832.0" layoutY="893.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" text="選擇">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="ele" layoutX="494.0" layoutY="911.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" text="選擇">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="ran" layoutX="210.0" layoutY="911.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" text="選擇">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label id="player1" layoutX="535.0" layoutY="37.0" text="玩家一選擇職業" textFill="#fafa11">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
