@@ -1,4 +1,4 @@
-# Simple-Hearthstone-Game
+# Simple Hearthstone Game using JavaFX 
 Simple Hearthstone card game but still in progress, there are some functions:
 - different cards and hero power ability
 - HP value and mana crystal counts
